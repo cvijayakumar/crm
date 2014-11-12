@@ -48,10 +48,17 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = '';
-$db['default']['password'] = '';
-$db['default']['database'] = '';
+if ($_SERVER['HTTP_HOST'] == 'localhost') {
+    $db['default']['hostname'] = 'localhost';
+    $db['default']['username'] = 'root';
+    $db['default']['password'] = '';
+    $db['default']['database'] = 'crm';
+} else {
+    $db['default']['hostname'] = 'localhost';
+    $db['default']['username'] = 'root';
+    $db['default']['password'] = '';
+    $db['default']['database'] = 'crm';
+}
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
