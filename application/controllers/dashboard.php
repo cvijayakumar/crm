@@ -24,9 +24,16 @@ class Dashboard extends CI_Controller {
     }
     
     public function login() {
-		echo '<pre>';
 		if ($this->input->post()) {
-			print_r($this->input->post());
+			$this->load->library('form_validation');
+			$this->form_validation->set_rules('username', 'Username', 'required|trim|xss_clean');
+			$this->form_validation->set_rules('password', 'Password', 'required|trim|xss_clean');
+			if ($this->form_validation->run() == TRUE) {
+				$this->load->model('users_model');
+                    $u = $this->input->post('username');
+                    $p = $this->input->post('password');
+                    $r = $this->users_model->is_login($u, $p);
+			}
 		}
 		exit;
 		$r = array(
