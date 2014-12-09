@@ -7,7 +7,7 @@ class Common extends CI_Controller {
 
     public $CRM_USER_SESSION;
     private $data = array();
-    
+
     public function __construct() {
         parent::__construct();
         $this->clear_cache->back_button();

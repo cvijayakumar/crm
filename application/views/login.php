@@ -5,7 +5,7 @@
 <!-- BEGIN HEAD -->
 <head>
 	<meta charset="utf-8" />
-	<title>Metronic | Login Page</title>
+	<title>.: CRM :.</title>
 	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
 	<meta content="" name="description" />
 	<meta content="" name="author" />
@@ -30,7 +30,7 @@
 <body class="login">
 	<!-- BEGIN LOGO -->
 	<div class="logo">
-		<span style="color:#FFF; font-size:32px;">CRM</span> 
+            <span style="color:#FFF; font-size:32px;">CRM</span> 
 	</div>
 	<!-- END LOGO -->
 	<!-- BEGIN LOGIN -->
@@ -38,35 +38,35 @@
 		<!-- BEGIN LOGIN FORM -->
 		<form class="form-vertical login-form" action="<?php echo base_url() ?>login" method="post" name="form_submit">
 			<div class="alert alert-error hide">
-				<button class="close" data-dismiss="alert"></button>
-				<span>Enter username and password.</span>
+                            <button class="close" data-dismiss="alert"></button>
+                            <span>Enter username and password.</span>
 			</div>
 			<div class="control-group">
-				<!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
-				<label class="control-label visible-ie8 visible-ie9">Username</label>
-				<div class="controls">
-					<div class="input-icon left">
-						<i class="icon-user"></i>
-						<input class="m-wrap placeholder-no-fix" type="text" autocomplete="off" placeholder="Username" name="username"/>
-					</div>
-				</div>
+                            <!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
+                            <label class="control-label visible-ie8 visible-ie9">Username</label>
+                            <div class="controls">
+                                <div class="input-icon left">
+                                    <i class="icon-user"></i>
+                                    <input class="m-wrap placeholder-no-fix" type="text" autocomplete="off" placeholder="Username" name="username"/>
+                                </div>
+                            </div>
 			</div>
 			<div class="control-group">
-				<label class="control-label visible-ie8 visible-ie9">Password</label>
-				<div class="controls">
-					<div class="input-icon left">
-						<i class="icon-lock"></i>
-						<input class="m-wrap placeholder-no-fix" type="password" autocomplete="off" placeholder="Password" name="password"/>
-					</div>
-				</div>
+                            <label class="control-label visible-ie8 visible-ie9">Password</label>
+                            <div class="controls">
+                                <div class="input-icon left">
+                                    <i class="icon-lock"></i>
+                                    <input class="m-wrap placeholder-no-fix" type="password" autocomplete="off" placeholder="Password" name="password"/>
+                                </div>
+                            </div>
 			</div>
 			<div class="form-actions">
-				<label class="checkbox">
-					<input type="checkbox" name="remember" value="1"/> Remember me
-				</label>
-				<button type="submit" class="btn green pull-right">
-					Login <i class="m-icon-swapright m-icon-white"></i>
-				</button>            
+                            <label class="checkbox">
+                                <input type="checkbox" name="remember" value="1"/> Remember me
+                            </label>
+                            <button type="submit" class="btn green pull-right">
+                                Login <i class="m-icon-swapright m-icon-white"></i>
+                            </button>            
 			</div>
 		</form>
 		<!-- END LOGIN FORM -->
@@ -74,7 +74,7 @@
 	<!-- END LOGIN -->
 	<!-- BEGIN COPYRIGHT -->
 	<div class="copyright">
-		2013 &copy; CRM.
+            2013 &copy; CRM.
 	</div>
 	<!-- END COPYRIGHT -->
 	<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
@@ -102,10 +102,10 @@
 	<script src="<?php echo base_url() ?>assets/scripts/login.js" type="text/javascript"></script> 
 	<!-- END PAGE LEVEL SCRIPTS --> 
 	<script>
-		jQuery(document).ready(function() {     
-		  App.init();
-		  Login.init();		
-		});
+            jQuery(document).ready(function() {     
+              App.init();
+              Login.init();		
+            });
 	</script>
 	<!-- END JAVASCRIPTS -->
 </body>

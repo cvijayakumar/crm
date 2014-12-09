@@ -1,1 +1,1 @@
-<?phpecho 'dashboard';/*print_r($this->DG_USER_SESSION);$this->load->view('includes/header');$this->load->view($page_to_load);$this->load->view('includes/left-sidebar');$this->load->view('includes/sidebar');$this->load->view('includes/footer');*/
+<?php$this->load->view('includes/header');$this->load->view('includes/sidebar');$this->load->view($page_to_load);$this->load->view('includes/footer');
