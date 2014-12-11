@@ -5,7 +5,7 @@
 <!-- BEGIN HEAD -->
 <head>
     <meta charset="utf-8" />
-    <title>.: CRM :.</title>
+    <title>.: DREAMGUYS :.</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="" name="description" />
     <meta content="" name="author" />
@@ -41,7 +41,7 @@
             <div class="container-fluid">
                 <!-- BEGIN LOGO -->
                 <a class="brand" href="index.html">
-                    <img src="<?php echo base_url() ?>assets/img/logo.png" alt="logo" />
+                    DREAMGUYS
                 </a>
                 <!-- END LOGO -->
                 <!-- BEGIN RESPONSIVE MENU TOGGLER -->

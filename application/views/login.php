@@ -5,7 +5,7 @@
 <!-- BEGIN HEAD -->
 <head>
 	<meta charset="utf-8" />
-	<title>.: CRM :.</title>
+	<title>.: DREAMGUYS :.</title>
 	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
 	<meta content="" name="description" />
 	<meta content="" name="author" />
@@ -30,7 +30,7 @@
 <body class="login">
 	<!-- BEGIN LOGO -->
 	<div class="logo">
-            <span style="color:#FFF; font-size:32px;">CRM</span> 
+            <span style="color:#FFF; font-size:32px;">DREAMGUYS</span> 
 	</div>
 	<!-- END LOGO -->
 	<!-- BEGIN LOGIN -->
@@ -74,7 +74,7 @@
 	<!-- END LOGIN -->
 	<!-- BEGIN COPYRIGHT -->
 	<div class="copyright">
-            2013 &copy; CRM.
+            2015 &copy; Dreamguys Technologies.
 	</div>
 	<!-- END COPYRIGHT -->
 	<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->

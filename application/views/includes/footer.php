@@ -3,7 +3,7 @@
 <!-- BEGIN FOOTER -->
 <div class="footer">
     <div class="footer-inner">
-        2013 &copy; CRM.
+        2015 &copy; DREAMGUYS Technologies.
     </div>
     <div class="footer-tools">
         <span class="go-top">
